@@ -1,0 +1,52 @@
+
+Assessment complete!
+  Score: 59.4/100 (Bronze)
+  Assessed: 29
+  Skipped: 5
+  Total: 34
+  Duration: 9.8s
+
+Assessment Results:
+----------------------------------------------------------------------------------------------------
+Test Name                           Test Result    Notes                         
+----------------------------------------------------------------------------------------------------
+adr_frontmatter_completeness        ⏭️ SKIPPED     No ADR files found in standard locations
+agent_instructions                  ✅ PASS         85/100                        
+architectural_boundaries            ❌ FAIL         no boundary enforcement found (need: at least o...
+architecture_decisions              ❌ FAIL         no ADR directory (need: ADR directory with deci...
+ci_quality_gates                    ❌ FAIL         no CI config (need: CI config present)
+container_setup                     ✅ PASS         70/100                        
+conventional_commits                ❌ FAIL         not configured (need: configured)
+cyclomatic_complexity               ✅ PASS         80/100                        
+dbt_data_tests                      ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Dockerfile', 'Markd...
+dbt_model_documentation             ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Dockerfile', 'Markd...
+dbt_project_config                  ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Dockerfile', 'Markd...
+dbt_project_structure               ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Dockerfile', 'Markd...
+dependency_security                 ❌ FAIL         No security scanning tools configured (need: ≥6...
+design_intent                       ✅ PASS         60/100                        
+deterministic_enforcement           ❌ FAIL         not configured (need: configured)
+file_size_limits                    ❌ FAIL         362 huge, 485 large out of 8087 (need: <5% file...
+gitignore_completeness              ❌ FAIL         6/12 patterns (need: ≥70% of language-specific ...
+inline_documentation                ✅ PASS         85/100                        
+issue_pr_templates                  ❌ FAIL         PR:False, Issues:0 (need: PR template + ≥2 issu...
+lint_config_coverage                ❌ FAIL         2/3 categories (need: all 3 categories (correct...
+lint_suppression_density            ✅ PASS         100/100                       
+lock_files                          ✅ PASS         100/100                       
+one_command_setup                   ✅ PASS         100/100                       
+openapi_specs                       ❌ FAIL         found (need: OpenAPI 3.x with paths and schemas)
+pattern_references                  ❌ FAIL         none found (need: pattern references or skills ...
+progressive_disclosure              ❌ FAIL         not configured (need: path-scoped rules or skills)
+readme_structure                    ✅ PASS         100/100                       
+separation_of_concerns              ✅ PASS         100/100                       
+single_file_verification            ❌ FAIL         not documented (need: single-file lint + type-c...
+standard_layout                     ✅ PASS         95/100                        
+structured_logging                  ✅ PASS         100/100                       
+test_execution                      ✅ PASS         90/100                        
+threat_model                        ❌ FAIL         no threat model found (need: THREAT_MODEL.md wi...
+type_annotations                    ✅ PASS         85/100                        
+----------------------------------------------------------------------------------------------------
+
+Reports generated:
+  JSON: reports/ztwim-with-docs/assessment-20260923-154630.json
+  HTML: reports/ztwim-with-docs/report-20260923-154630.html
+  Markdown: reports/ztwim-with-docs/report-20260923-154630.md

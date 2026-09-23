@@ -1,0 +1,53 @@
+Subprocess error: [Errno 2] No such file or directory: 'gocyclo'
+
+Assessment complete!
+  Score: 56.7/100 (Bronze)
+  Assessed: 28
+  Skipped: 6
+  Total: 34
+  Duration: 9.5s
+
+Assessment Results:
+----------------------------------------------------------------------------------------------------
+Test Name                           Test Result    Notes                         
+----------------------------------------------------------------------------------------------------
+adr_frontmatter_completeness        ⏭️ SKIPPED     No ADR files found in standard locations
+agent_instructions                  ✅ PASS         70/100                        
+architectural_boundaries            ❌ FAIL         no boundary enforcement found (need: at least o...
+architecture_decisions              ❌ FAIL         no ADR directory (need: ADR directory with deci...
+ci_quality_gates                    ❌ FAIL         no CI config (need: CI config present)
+container_setup                     ✅ PASS         70/100                        
+conventional_commits                ❌ FAIL         not configured (need: configured)
+cyclomatic_complexity               ⏭️ SKIPPED     Missing tool: gocyclo         
+dbt_data_tests                      ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Markdown', 'Go', 'J...
+dbt_model_documentation             ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Markdown', 'Go', 'J...
+dbt_project_config                  ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Markdown', 'Go', 'J...
+dbt_project_structure               ⏭️ NOT_APPLICABLE Not applicable to ['YAML', 'Markdown', 'Go', 'J...
+dependency_security                 ❌ FAIL         No security scanning tools configured (need: ≥6...
+design_intent                       ❌ FAIL         minimal (need: design docs with preconditions/i...
+deterministic_enforcement           ❌ FAIL         not configured (need: configured)
+file_size_limits                    ❌ FAIL         344 huge, 471 large out of 8024 (need: <5% file...
+gitignore_completeness              ✅ PASS         83/100                        
+inline_documentation                ❌ FAIL         41.3% (need: ≥80%)            
+issue_pr_templates                  ❌ FAIL         PR:False, Issues:0 (need: PR template + ≥2 issu...
+lint_config_coverage                ❌ FAIL         1/3 categories (need: all 3 categories (correct...
+lint_suppression_density            ✅ PASS         100/100                       
+lock_files                          ✅ PASS         100/100                       
+one_command_setup                   ✅ PASS         100/100                       
+openapi_specs                       ❌ FAIL         found (need: OpenAPI 3.x with paths and schemas)
+pattern_references                  ✅ PASS         40/100                        
+progressive_disclosure              ❌ FAIL         not configured (need: path-scoped rules or skills)
+readme_structure                    ✅ PASS         100/100                       
+separation_of_concerns              ✅ PASS         100/100                       
+single_file_verification            ❌ FAIL         not documented (need: single-file lint + type-c...
+standard_layout                     ✅ PASS         100/100                       
+structured_logging                  ✅ PASS         100/100                       
+test_execution                      ✅ PASS         70/100                        
+threat_model                        ❌ FAIL         no threat model found (need: THREAT_MODEL.md wi...
+type_annotations                    ✅ PASS         95/100                        
+----------------------------------------------------------------------------------------------------
+
+Reports generated:
+  JSON: reports/mtao-with-docs/assessment-20260923-154620.json
+  HTML: reports/mtao-with-docs/report-20260923-154620.html
+  Markdown: reports/mtao-with-docs/report-20260923-154620.md
